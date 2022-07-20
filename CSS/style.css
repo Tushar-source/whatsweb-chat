@@ -141,14 +141,15 @@ i{
     background-image: url("../images/body-image.png");
 }
 .emoji-icon{
-    width: 10%
+    width: 10%;
+    padding: 0px 10px;
 }
 .message-bar{
     width: 80%
 }
 .mike{
     width: 10%;
-    padding: 0px 10px;
+    padding: 0px 20px;
 
 }
 .emoji-icon ul li {
@@ -191,7 +192,7 @@ i{
     margin: 0px 10px;
 }
 .type-message input[type=text]{
-    color: rgb(184, 182, 182);
+    /* color: rgb(184, 182, 182); */
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -203,6 +204,7 @@ i{
     height:35px;
     border:none;
     padding: 0px 10px;
+    font-size: 1.2rem;
    
     
 }
@@ -210,6 +212,8 @@ i{
     display: flex;
     flex-direction: column;
     position: relative;
+    margin: 30px 15px;
+    padding: 20px 0px;
     
 }
 .send-message{
@@ -225,6 +229,7 @@ i{
     top: 5%; */
     width: fit-content;
     align-self: flex-end;
+    margin: 10px 0px;
 }
 .receive-message{
     color: #111b21;
@@ -239,12 +244,25 @@ i{
     top: 15%; */
     width: fit-content;
     align-self: flex-start;
+    margin: 10px 0px;
 }
 
+@media screen and (max-width:1260px){
+    .emoji-icon ul li {
+       
+        padding: 0px 8px;
+    }
+} 
+@media screen and (max-width:1152px){
+    .emoji-icon ul li {
+       
+        padding: 0px 4px;
+    }
+}
 @media screen and (max-width:992px){
     .emoji-icon ul li {
         
-        padding: 0px 5px;
+        padding: 0px 2px;
     }
     
     .search{
@@ -252,7 +270,12 @@ i{
         font-size: 0.8rem;
     }
 }
-
+@media screen and (max-width:832px){
+    .emoji-icon ul li {
+       
+        padding: 0px 1px;
+    }
+}
 @media screen and (max-width: 800px){
     .search {
         max-width: 180px;
@@ -260,6 +283,12 @@ i{
     }
     .friend-name {
         margin: 0px 5px;
+    }
+}
+@media screen and (max-width:780px){
+    .emoji-icon ul li {
+        
+        padding: 0px 0px;
     }
 }
 
