@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Web UI</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/WhatsApp_icon.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="header"> 
+        <div class="side-navbar">
+            <div class="profile">
+                <img src="images/person1.jpg" alt="profile image" width="35" height="35">
+            </div>
+            <div class="side-icon"> 
+                    <ul>
+                        <li><i class="fa-solid fa-circle-notch"></i></li>
+                        <li><i class="fa-solid fa-message"></i></li>
+                        <li><i class="fa-solid fa-ellipsis-vertical"></i></li>   
+                    </ul>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="details">
+                <div class="profile">
+                    <img src="images/person1.jpg" alt="profile image" width="35" height="35">
+                </div>
+                <div class="owner">
+                    <h4>Deepak</h6>
+                    <p>Online</p>
+                </div>
+            </div>
+            <div class="side-icon">
+                <ul>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-ellipsis-vertical"></i></li> 
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="main-content">
+        <div class="left-side">
+            <div class="search-bar">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="myInput" onkeyup="searchfunction()" placeholder="Search or Start new chat">
+                    
+                </div>
+                
+            </div>
+            <div class="friends">
+                <ul id="friends-ul">
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                    <img src="images/person1.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                    <h4>Deepak</h6>
+                                    <p>Hello I am Deepak</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person3.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Rahul</h6>
+                                <p>Hello I am Rahul</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person2.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Mohammad Zaid Quaraishi</h6>
+                                <p>Hello I am Zaid</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person4.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Pramveer Singh</h6>
+                                <p>Hello I am Pramveer</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person5.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Harsh</h6>
+                                <p>Hello I am Harsh</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person6.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Satyam Rao</h6>
+                                <p>Hello I am Satyam</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person3.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Nikhil Karal</h6>
+                                <p>Hello I am Nikhil</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person1.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Tushar</h6>
+                                <p>Hello I am Tushar</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person2.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Varij Kapoor</h6>
+                                <p>Hello I am Varij</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person5.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Dhananjay</h6>
+                                <p>Hello I am Dhannajay</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person2.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Prince</h6>
+                                <p>Hello I am Price</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                    
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person6.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Denver</h6>
+                                <p>Hello I am Denver</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person2.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Professor</h6>
+                                <p>Hello I am Professor</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person5.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Helsinki</h6>
+                                <p>Hello I am Helsinki</p>
+                            </div>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="friend-list">
+                            <div class="profile">
+                                <img src="images/person7.jpg" alt="profile image" width="35" height="35">
+                            </div>
+                            <div class="friend-name">
+                                <h4>Tokoyo</h6>
+                                <p>Hello I am Tokoyo</p>
+                            </div>   
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="right-side">
+            <div id="display-message"></div>
+            <!-- <div id="send-message">
+                <p>Hello</p>
+            </div>
+            <div id="receive-message">
+                <p>Hii Buddy</p>
+            </div> -->
+            
+            <div class="message">
+                <div class="emoji-icon">
+                    <ul>
+                        <li><i class="fa-regular fa-face-smile-beam fa-3xsm "></i></li>
+                        <li><i class="fa-solid fa-paperclip fa-3xsm"></i></li>
+                    </ul>
+                </div>
+
+                
+                <div class="day">
+                    <h6>TODAY</h6>
+                    
+                </div>
+                <div class="message-bar">
+                    <div class="type-message">
+                        <!-- add checkbox here for send -->
+                        <input type="checkbox" name="" id="chat-person" onclick="checkboxfunction()" checked>
+                        <input type="text" id="chat-message" placeholder="Type a message">
+                        <!-- add button here for send -->
+                        <button onclick="send()"><i class="fa-solid fa-paper-plane"></i></button>
+                        
+                        
+                    </div>
+                </div>
+                
+                <div class="mike"><i class="fa-solid fa-microphone"></i></div>
+            </div>
+        </div>
+    </div>
+    <script src="./Javascript/script.js"></script>
+</body>
+</html>
